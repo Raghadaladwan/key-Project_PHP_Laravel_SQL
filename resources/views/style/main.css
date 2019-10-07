@@ -1,0 +1,12 @@
+body{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Montserrat', sans-serif;background-color: #006097;}
+header{display: flex;flex-flow: row nowrap;justify-content: space-around;align-items: center;height: 8vh;background-color: #fff;}
+header a{text-decoration: none;}
+header span{background: -webkit-linear-gradient(#006097,#4c91b7);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 29pt;margin-left: 36px;}
+header span:hover{background: -webkit-linear-gradient(#e52e71, #ff8a00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 29pt;margin-left: 36px;}
+header div:first-of-type{background-color: #006097;color: white;border-radius: 5px;font-size: 14pt;padding: 11px;font-weight: bolder;}
+header div:first-of-type:hover{background: -webkit-linear-gradient(#e52e71, #ff8a00);}
+header div:first-of-type a{text-decoration: none;color: white}
+header div:last-of-type{margin-right: 36px;font-size: 22px}
+header div:last-of-type a{text-decoration: none;color: #4c91b7;font-weight: bolder}
+header div:last-of-type a:hover{color:#006097;border-bottom: 3px #006097 solid}
+
